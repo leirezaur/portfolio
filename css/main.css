@@ -34,7 +34,15 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: 'Circular Std';
+  src: url('CircularStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('CircularStd-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CircularStd-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CircularStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CircularStd-Medium.svg') format('svg'); /* Legacy iOS */
+}
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -96,7 +104,7 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -177,12 +185,12 @@ em, i, strong, b {
 }
 
 em, i {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-style: italic;
 }
 
 strong, b {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
 }
 
@@ -210,7 +218,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "Roboto Mono", georgia, serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-style: italic;
   padding: 0;
   font-size: 1.9rem;
@@ -235,7 +243,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -425,7 +433,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
 }
 
 th,
@@ -1141,7 +1149,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 4.8rem;
   line-height: 1.375;
@@ -1473,7 +1481,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1815,7 +1823,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 3.8rem;
   line-height: 1.8;
@@ -2303,7 +2311,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.8;
@@ -2311,7 +2319,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "Roboto Mono", serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 3.6rem;
   line-height: 1;
@@ -2337,7 +2345,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 2rem;
   margin-top: .9rem;
