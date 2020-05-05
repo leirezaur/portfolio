@@ -1426,6 +1426,9 @@ header .header-logo a {
   color: rgba(255, 255, 255, 0.25);
   display: block;
 }
+#menu-nav-wrap .nav-list .current a {
+  color: rgba(255, 255, 255, 1) !important;
+}
 #menu-nav-wrap .nav-list li a:hover,
 #menu-nav-wrap .nav-list li a:focus {
   color: white;
@@ -1965,7 +1968,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #1aa6b7;
+  color: #fff;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2883,4 +2886,18 @@ footer h4.h05::after {
 
 .project-info:nth-child(1){
     margin-bottom: 1rem;
+}
+
+.projects-nav{
+    position: relative;
+    padding: 1rem 0;
+}
+
+.left-nav{
+    left: 0;
+    position: absolute;
+}
+.right-nav{
+    right: 0;
+    position: absolute;
 }
