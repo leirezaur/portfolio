@@ -2862,8 +2862,26 @@ footer h4.h05::after {
  *
  * ------------------------------------------------------------------- */
 
-#project-header {
-    background-image: url(file:///Users/leirezabala/Desktop/LEIRE/Portfolio/opcion02/images/header-bg.jpg);
+#project-header .genuinus {
+    background-image: url('../images/shutterbug.jpg');
+    background-size: cover;
+    background-position: center; height: 300px;
+    padding: 9rem 0 9rem;
+}
+#project-header .togethere {
+    background-image: url('../images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center; height: 300px;
+    padding: 9rem 0 9rem;
+}
+#project-header .renfe {
+    background-image: url('../images/leire.png');
+    background-size: cover;
+    background-position: center; height: 300px;
+    padding: 9rem 0 9rem;
+}
+#project-header .hackett {
+    background-image: url('../images/services-bg.jpg');
     background-size: cover;
     background-position: center; height: 300px;
     padding: 9rem 0 9rem;
