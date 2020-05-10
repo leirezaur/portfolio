@@ -21,8 +21,8 @@
    <script src="js/pace.min.js"></script>
    <script src="https://kit.fontawesome.com/1ba5252ccd.js" crossorigin="anonymous"></script>
 
-   <link rel="shortcut icon" href="favicon-nuevo.png" type="image">
-   <link rel="icon" href="favicon-nuevo.png" type="image">
+   <link rel="shortcut icon" href="favicon.png" type="image">
+   <link rel="icon" href="favicon.png" type="image">
 
 </head>
 
@@ -41,9 +41,18 @@
             <h3>leire zabala</h3>
             <ul class="nav-list">
                 <li class="current-home"><a class="smoothscroll" href="#home" title="">Home</a></li>
-				<li><a class="smoothscroll" href="#about" title="">About</a></li>
-				<li><a class="smoothscroll" href="#services" title="">Resume</a></li>
-				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a href="profile.html" title="">About me</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn smoothscroll" href="#top" title="">Work <span class="drop-icon">▾</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="genuinus.html">Genuinus</a></li>
+                        <li><a href="togethere.html">Togethere</a></li>
+                        <li><a href="uichallenges.html">UI challenges</a></li>
+                        <li><a href="hackett.html">Hackett</a></li>
+                        <li><a href="renfe.html">Renfe app</a></li>
+                        <li><a href="likebank.html">Likebank</a></li>
+                    </ul>
+                </li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 			</ul>
             <ul class="header-social-list">
@@ -89,71 +98,15 @@
                 <div class="about-profile-bg"></div>
                 <div class="intro">
                     <h3 class="animate-this">about me</h3>
-                    <p class="lead animate-this">Hello world! I'm <span>Leire</span>, a UX/UI designer based in Barcelona, Spain. I design, take care of small details. I think. I draw, I imagine. I write, travel and take pictures.</p>
-                    <img src="images/leire.png" alt="leire">
+                    <p class="lead animate-this">Hello world! I'm <span>Leire</span>, a UX/UI designer based in Barcelona, Spain.</p>
+                    <div class="more animate-intro">
+                        <a class="smoothscroll button stroke" href="#portfolio">about me</a>
+                    </div>
+                    <img class="animate-this" src="images/leire.png" alt="leire">
                 </div>
             </div>
         </div>
     </section> <!-- end about -->
-
-
-    <section id="services">
-        <div class="overlay"></div>
-        <div class="gradient-overlay"></div>
-        <div class="row narrow section-intro with-bottom-sep animate-this">
-            <div class="col-full">
-                <h3>resume</h3>
-                <h1>What I do</h1>
-                <p class="lead">I design. I think and overthink. I love drawing ideas and taking notes. And I love action. Some of my skills are listed below:</p>
-            </div>
-        </div>
-        <div class="row services-content">
-            <div class="services-list block-1-2 block-tab-full group">
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-palette"></i></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">UI design</h3>
-                        <p>From user flows to wireframing or user interface. My experience as both graphic and UI designer gaves me a broad perspective to develop visually attractive ideas.</p>
-                    </div>
-                </div> <!-- end element1 -->
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-search"></i></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">UX design</h3>
-                        <p>Human and user centered. I'm empathetic and try to listen to users to craft the best solutions to their needs. I'm familiar with Research tools in order to analyse them and collect the data to improve a product.</p>
-                    </div>
-                </div> <!-- end element2 -->
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-users"></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">Team player</h3>
-                        <p>I'm not a loner. Working in cross-functional teams has made me an adaptable human being that communicates with others, has curiosities and tries to understand other points of view.</p>
-                    </div>
-                </div> <!-- end element3 -->
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">Agile</h3>
-                        <p>Iterations and design sprints are in my daily <b>agenda</b>. I see them as an essential part of building a product and working in its improvements through time and user's interactions.</p>
-                    </div>
-                </div> <!-- end element4 -->
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-bezier-curve"></i></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">Illustrations</h3>
-                        <p>Iterations and design sprints are in my daily <b>agenda</b>. I see them as an essential part of building a product and working in its improvements through time and user's interactions.</p>
-                    </div>
-                </div> <!-- end element5 -->
-                <div class="bgrid service-item animate-this">
-                    <span class="icon"><i class="fas fa-expand-arrows-alt"></i></i></span>
-                    <div class="service-content">
-                        <h3 class="h05">Interactions</h3>
-                        <p>Iterations and design sprints are in my daily <b>agenda</b>. I see them as an essential part of building a product and working in its improvements through time and user's interactions.</p>
-                    </div>
-                </div> <!-- end element6 -->
-            </div>
-        </div>
-    </section> <!-- end resume -->
 
 
     <section id="portfolio">
@@ -213,6 +166,28 @@
                             </a>
                         </div>
                     </div> <!-- end item4 -->
+                    <div class="brick folio-item">
+                        <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg">
+                            <a href="uichallenges.html" class="overlay">
+                                <img src="images/portfolio/minimalismo.jpg" alt="UI challenges">
+                                <div class="item-text">
+                                    <span class="folio-types">ui design</span>
+                                    <h3 class="folio-title">UI challenges</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- end item5 -->
+                    <div class="brick folio-item">
+                        <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg">
+                            <a href="likebank.html" class="overlay">
+                                <img src="images/portfolio/minimalismo.jpg" alt="Likebank">
+                                <div class="item-text">
+                                    <span class="folio-types">ux study case</span>
+                                    <h3 class="folio-title">Likebank</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- end item6 -->
                 </div>
             </div>
         </div>
