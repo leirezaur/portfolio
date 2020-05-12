@@ -1860,6 +1860,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 #about button.stroke:hover, #about .button.stroke:hover {
   border: 3px solid #002d40;
+  box-shadow: inset 12em 0 0 0 #1aa6b7ab;
   color: #002d40;
 }
 
@@ -2059,6 +2060,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   padding: 0;
 }
+
+#portfolio .lead a{
+    color: #fff;
+}
+
+#portfolio .lead a:hover{
+    color: #ff414d;
+}
+
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
   background: #002d40;
@@ -2398,7 +2408,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 12rem 0 12rem;
+  padding: 12rem 0 9rem;
   position: relative;
 }
 
@@ -2437,7 +2447,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #contact button.stroke:hover, #contact .button.stroke:hover {
-  box-shadow: inset 12em 0 0 0 #1aa6b7ab;
+  box-shadow: inset 15em 0 0 0 #1aa6b7ab;
 }
 
 /* -------------------------------------------------------------------
