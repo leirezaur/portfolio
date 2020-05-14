@@ -1954,7 +1954,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 166, 183, 0.5);
+  background-color: rgba(0, 45, 64, 0.5);
 }
 #services .gradient-overlay {
   position: absolute;
