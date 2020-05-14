@@ -1846,12 +1846,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     border-radius: 50%;
 }
 
-#about img:hover{
-    /*content: url(../images/leire-alien.png);*/
+/*#about img:hover{
+    content: url(../images/leire-alien.png);
     max-width: 150px;
     max-height: 150px;
     border-radius: 50%;
-}
+}*/
 
 #about .button.stroke {
     border: 3px solid #002d40;
