@@ -1154,16 +1154,13 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 1.5rem;
 }
-.section-intro h1 {
+
+.section-intro h1, .section-intro h2 {
   font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: bold;
   font-size: 4.8rem;
   line-height: 1.375;
   color: #002D40;
-}
-
-.section-intro .white h1{
-    color: #ffffff;
 }
 
 .section-intro h3 {
@@ -1198,7 +1195,7 @@ input::-moz-focus-inner {
  * section-intro
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
-  .section-intro h1 {
+  .section-intro h1, .section-intro h2 {
     font-size: 4.4rem;
   }
   .section-intro .lead {
@@ -1206,7 +1203,7 @@ input::-moz-focus-inner {
   }
 }
 @media only screen and (max-width: 768px) {
-  .section-intro h1 {
+  .section-intro h2 {
     font-size: 4rem;
   }
   .section-intro h3 {
@@ -1214,7 +1211,7 @@ input::-moz-focus-inner {
   }
 }
 @media only screen and (max-width: 600px) {
-  .section-intro h1 {
+  .section-intro h1, .section-intro h2 {
     font-size: 3.4rem;
   }
   .section-intro h3 {
@@ -1227,7 +1224,7 @@ input::-moz-focus-inner {
   }
 }
 @media only screen and (max-width: 400px) {
-  .section-intro h1 {
+  .section-intro h1, .section-intro h2 {
     font-size: 3.1rem;
   }
 }
@@ -1971,7 +1968,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #services .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
-#services .section-intro h1 {
+#services .section-intro h2 {
   color: #FFFFFF;
 }
 #services .section-intro .lead {
@@ -2076,7 +2073,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
-#portfolio .section-intro h1 {
+#portfolio .section-intro h2 {
   color: #FFFFFF;
 }
 #portfolio .section-intro .lead {
@@ -2412,7 +2409,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
 }
 
-#contact .section-intro h1 {
+#contact .section-intro h2 {
   color: white;
 }
 #contact .section-intro h3 {
@@ -2687,11 +2684,6 @@ footer h4.h05::after {
 }
 
 
-
-/*leire pruebas*/
-
-
-
 /* ===================================================================
  *  17. single projects
  *
@@ -2724,16 +2716,45 @@ footer h4.h05::after {
     background-position: top !important;
 }
 
-#project-header h3{
+#project-header h1{
+    color: #fff;
+}
+
+#project-header h2{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Circular Std", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #project-header h2 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #project-header h2 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #project-header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+#project-header .blue h1{
+    color: #002D40;
+}
+
+#project-header .blue h2{
     color: rgba(0, 45, 64, 0.5);
 }
 
-#project-header .white h3{
-    color: rgba(255, 255, 255, 0.5);
-}
-
 #single-project {
-    background-color: #ffffff;
+    background-color: #fff;
     min-height: 620px;
     padding: 8rem 0 12rem;
     position: relative;
@@ -2771,9 +2792,7 @@ footer h4.h05::after {
     position: absolute;
 }
 
-
-/* mas pruebas leire */
-
+/* Dropdown menu */
 
 .dropdown {
   overflow: hidden;
