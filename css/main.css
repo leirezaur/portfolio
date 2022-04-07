@@ -2689,7 +2689,7 @@ footer h4.h05::after {
  *
  * ------------------------------------------------------------------- */
 
-#project-header .genuinus, #project-header .togethere, #project-header .renfe, #project-header .hackett, #project-header .uichallenges, #project-header .likebank {
+#project-header .genuinus, #project-header .togethere, #project-header .arinc, #project-header .renfe, #project-header .hackett, #project-header .uichallenges, #project-header .likebank {
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -2710,6 +2710,9 @@ footer h4.h05::after {
 }
 #project-header .uichallenges {
     background-image: url('../images/portfolio/header-uichallenges.jpg');
+}
+#project-header .arinc {
+    background-image: url('../images/others/header-arinc.jpg');
 }
 #project-header .likebank {
     background-image: url('../images/portfolio/header-likebank.jpg');

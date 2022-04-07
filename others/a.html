@@ -80,7 +80,7 @@
 
 
 	<section id="project-header">
-		<div class="togethere intro-wrap project-wrap">
+		<div class="arinc intro-wrap project-wrap">
 			<div class="row narrow section-intro with-bottom-sep animate-this">
 				<div class="col-twelve">
 					<h2>ux/ui design</h2>
@@ -110,12 +110,12 @@
 				</div>
 				<div class="wow fadeInUp col-seven tab-full" data-wow-delay="2.6s">
 					<p><a href="https://www.collinsaerospace.com" target="_blank">Collins Aerospace</a> is one of the world’s largest suppliers of aerospace and aeronautics products, based in the USA. Even though it’s mainly focused on manufacturing and structures, Collins Aerospace's ARINCDirect is the most complete provider of business aviation solutions in the market today.</p>
-                    <img src="../images/togethere/togethere-brand.jpg" class="img-responsive" alt="Togethere">
+                    <img src="../images/others/collins-logo.png" class="img-responsive" alt="Collins Aerospace">
                     <h3>the goal &#127919;</h3>
 
 					<p>Flight departments worldwide (flight crew, dispatchers and operation managers) face some digital challenges nowadays. The software they use is very technical and broad, confusing to use and poorly connected to third parties. Collins’ purpose is to design and offer the best <b>flight scheduling tool</b> in the market to be the industry leaders worldwide and attract more customers and users in the following years.</p>
                     <p>The big challenge we were presented came with 3 main objectives to cover in the first MVP iteration:</p>
-                        <li>Build multiple <b>persona-focused</b> products. Customers only want to pay for what they use and it’s also easier for them to have simple effective tools for each action.</li>
+                        <li>Build a <b>persona-focused</b> product. Customers only want to pay for what they use and it’s also easier for them to have simple effective tools for each action.</li>
                         <li>Scalability. The product we create has to be ready for <b>growth</b> and future improvements and new features that will come.</li>
                         <li>Responsiveness. The Calendar Exchange tool will be built as a <b>PWA</b> for users to access anywhere. This is a huge step forward among competitors in the aviation market.</li>
                     </br>
@@ -124,34 +124,39 @@
 
                     <h3>crafting the solution &#128173;</h3>
 
-                    <p>The first steps included weeks of research. An online <b>form</b> for travelers asking how they travel, who with, where they found information, etc. turned really useful as a starting point. More than 50 responses gave me <b>data</b> and <b>insights</b> to continue.</p>
-                    <img src="../images/togethere/answers.jpg" class="img-responsive" alt="Form answers">
-                    <p>I studied the online travel platforms’ <b>market</b>, social networks and similar ideas and competitors, such as Couchsurfing, Airbnb, Meetic, TripAdvisor, BlaBlaCar or travel blogs. This <b>video</b> from the mid-process explains the need I found in the market and to solve it became my goal (the logo it appears is not the final version):</p>
-                    <div class="fluid-video-wrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aem2Z_RbLE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <p>This done, I started shaping both the brand and its values and the website itself. As a social network, Togethere needed to have the usual tabs every <b>network</b> needs: profile, a home/feed/dashboard, a search tool...</p>
-                    <img src="../images/togethere/web-map.jpg" class="img-responsive" alt="Web map">
-                    <p>Users could look for either travelers or travels in the <b>search engine</b>, so results could vary on profiles or travel cards.</p>
-                    <img src="../images/togethere/wireframing.jpg" class="img-responsive" alt="Wireframing">
-                    <p>I wanted the platform to be extra reliable and safe for travelers, and adding an <b>'affinity'</b> feature solved this issue. This meant enabling profiles to fill a small questionnaire when signing up, to get to know their preferences better and later show them and pair them with the most suitable profiles to travel with, depending on their age, interests, languages… This is Togethere’s <b>differential value</b>, as it allows user to find the perfect travel mate for each journey.</p>
-                    <img src="../images/togethere/profile.jpg" class="img-responsive" alt="Profile">
-                    <p>With the help of the data, designing UI elements like the travel card is easier. Every organized travel has an <b>information sheet</b> showing the most important facts of the journey at a glance.</p>
-                    <img src="../images/togethere/cards.jpg" class="img-responsive" alt="Cards evolution">
-                    <p>The concept of Togethere and its name were born from the <b>values</b> of diversity and society. It not only means traveling with other people, but also sharing experiences and knowledge and spreading love and <b>respect without borders</b> or tags.</p>
-                    <img src="../images/togethere/naming.png" class="img-responsive" alt="Naming process">
-                    <p>The brand represents the world and its different realities and <b>pieces</b> (containers). It also represents a <b>meeting point</b> for connections. Colors come from the <b>environment</b> that connects us, from the sandy sunsets and clear skies we all share as equal human beings.</p>
-                    <img src="../images/togethere/branding.jpg" class="img-responsive" alt="Branding">
-                    <p>A bunch of <b>elements</b> such as illustrations, buttons and icons were created from scratch for the identity of Togethere. The applications of the brand to different devices and merch was also considered.</p>
-                    <img src="../images/togethere/illustrations.jpg" class="img-responsive" alt="Togethere illustrations">
+                    <p>Together with the Product Owner, the first months I run the investigation part of the project, having March as a deadline to close the low-fidelity designs. We first interviewed the stakeholders and more in depth the users, to get a demo and feedback on how they were working at the time.</p>
+                    <p>We generated a board of the user stories and basic actions they mentioned and realized the scope of the project was quite big. So the first task became the prioritization of the MVP, which we double checked with the stakeholders to look for approval. With the MVP user stories in mind, we then started mapping out connections, journeys and flows. The first stage included this main user stories (of course more):</p>
+                        <li><i>As a</i> flight dispatcher, <i>I want to</i> know the availability and agendas of my fleet of aircraft, <i>so that</i> I can plan ahead routes and events.</li>
+                        <li><i>As a</i> flight dispatcher, <i>I want to</i> be able to create new flight plans for my aircraft <i>so that</i> the quotation and scheduling process of crew can start running.</li>
+                        <li><i>As a</i> flight dispatcher, <i>I want to</i> be able to ‘travel in time’, <i>so that</i> I can access old data or plan future events according to AC availability.</li>
+                    </br>
+                    <p>A small benchmarking study was run to look for possible references in the market that already solve some of the user needs mentioned. Apps like Google Calendar and Apple Calendar came up to be very useful when it came to define timeline views, while even some flight booking apps’ features (Skyscanner or Southwest Airlines) served us for the trip building ideas, surprisingly.</p>
+                    <img src="../images/others/reference.png" class="img-responsive" alt="References">
+                    <p>Having those in mind, the first low-fidelity wireframes were designed. They were continuously shown to all the stakeholders and users in interactive prototypes, to grow and enrich the first MVP to the fullest in the allocated time.</p>
+                    <!-- <img src="../images/togethere/profile.jpg" class="img-responsive" alt="Profile"> -->
+                    <p>The challenges faced along the way were multiple, turning out in the end as some excellent learning experiences. Some of the examples we had to discuss and redefine included features such as:</p>
+                        <li>The position of the navigable calendar became a hot topic for some months. We finally chose the approach of keeping it as a modal, because the left panel proposal was stealing too much real state, specially in tablet. (The collapsable version was better adapted for future additional functionalities though, so thinking about scalability, it may come back in future iterations).</li>
+                        <li>Although it looked like a good idea in the first drafts, the FAB button for the action of creating a new event in desktop didn’t work. We kept it for mobile as it eases usability, but it only caused some extra efforts in higher resolutions.</li>
+                        </br>
+                        <div class="fluid-video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9SLB9Ilv-NE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <li>Users’ feedback was very valuable to design mobile solutions: dispatchers don’t usually work from portable devices, so its purpose is mainly focused on ‘read-only’.</li>
+                        <li>The ability for users to create new trips, called Trip builder, is designed to be a collapsable menu, for the users to be able to navigate through the timeline while scheduling. We quickly discarded the option to direct users to a whole new screen for that reason, although it was the initial plan.</li>
+                        <li>(Learning + work for the future) Users’ feedback made it clear that the usually navigate the app by tabbing in the keyboard and not using the mouse at all. However, we didn’t manage to fully cover this need in the calendar and time pickers of the form, due to the Local and UTC timeframe changes.
+                            This topic has been a bit of a nightmare and we are working hard on it to come up with a solution to satisfy all stakeholders, users and developers in the following release.</li>
+                    </br>
+                    <p>Once those were successfully closed and the low-fis approved by the end of March 2021, the workload focused on the high-fidelities and final deliverables of the app in all its resolutions. Collins already had a common Design system in place called Sonic, and this made the styling part easier to start. Having in mind the users’ journey, the app had been first designed in dark mode.</p>
+                    <p>We created new components and a small mini library to cover all the needed new assets and grew the DS with consistency and constant communication across teams, having weekly governance meetings with developers too for sync.</p>
 
                     <h3>final result &#10024;</h3>
 
-                    <p>The final metrics of this project will come live in some months, as it was just launched live, but so far the feedback got from the Beta users and stakeholders has been beyond positive as expected. This shows a clear good communication and expectation management we had through the whole process, and sets some actionable next steps to follow in the next iterations.</p>
-                    <p>This personally is my main takeaway from this project, being able to align so many stakeholders’ needs and cover complex requirements to build a functional top-notch tool. It’s been a whole experience to deal with so many different teams involved but all the constant and flowing communication has definitely paid off on the final result.</p>
-                    <img src="../images/togethere/style.jpg" class="img-responsive" alt="Style">
+                    <p>Here you can navigate through the final prototypes in desktop, tablet and mobile.</p>
+                    <p>The final metrics of this project will come live in some months, as it was just launched live, but so far the feedback got from the Beta users and stakeholders has been <b>beyond positive</b> as expected. This shows a clear good communication and expectation management we had through the whole process, and sets some actionable next steps to follow in the next iterations.</p>
+                    <p>This personally is my <b>main takeaway</b> from this project, being able to align so many stakeholders’ needs and cover complex requirements to build a functional top-notch tool. It’s been a whole experience to deal with so many different teams involved but all the constant and flowing communication has definitely paid off on the final result.</p>
+                    <!-- <img src="../images/togethere/style.jpg" class="img-responsive" alt="Style"> -->
                     <p>We are currently working on the new enhancements and features of the tool to keep delivering solutions to the users’ feedback in the following iterations.</p>
-                    <img src="../images/togethere/top.jpg" class="img-responsive" alt="Togethere">
+                    <!-- <img src="../images/togethere/top.jpg" class="img-responsive" alt="Togethere"> -->
                     <p>Here some interesting links:</p>
                         <li><a href="https://www.collinsaerospace.com/newsroom/News/2022/04/Collins-launches-Calendar-Exchange-app-for-Izon-technology-platform" target="_blank">Press release April 2022</a></li>
                         <li><a href="https://vimeo.com/684742853/d6f663401c" target="_blank">Demo video</a></li>
